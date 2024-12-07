@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    /*  у   брать маркеры у элемента списка */
+    list-style: none;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #e1fafa;
+    padding: 30px ;
+
+}
+
+.gallery_item {
+    width: 350px;
+    height: 200px;
+    border: 5px solid red;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    display:inline-block;
+}
+
+.gallery_img {
+    width: 100%;
+}
